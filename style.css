@@ -1,2 +1,33 @@
 html {box-sizing:border-box;}
 *,*::before,*::after {box-sizing:inherit}
+
+#container {
+    width: 1000px;
+    margin: auto;
+}
+
+header {
+    height: 200px;
+    background: orange;
+}
+#carousel {
+    width: 100%;
+    height: 450px;
+    background: aqua;
+}
+section {
+    height: 300px;
+    display: flex;
+    flex-direction: row
+}
+#news , #special , #location {
+    width: 320px;
+    height: 300px;
+    flex-direction: row;
+    background: pink;
+}
+#accordion {
+    width: 100%;
+    min-height: 500px;
+    background: yellow;
+}
