@@ -31,3 +31,30 @@ section {
     min-height: 500px;
     background: yellow;
 }
+
+button {
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    border:none;
+}
+
+button:focus {
+    outline: none;
+}
+
+#storyinfo, #ourmenu, #reserveinfo{
+    display: none;
+    
+}
+
+#storyinfo.show, #ourmenu.show, #reserveinfo.show {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+#story.border, #menu.border, #reserve.border {
+    border: 2px solid grey;
+}
+
